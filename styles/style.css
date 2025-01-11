@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background-color: whiteSMOKE;
   padding: 20px 150px;
+  margin: 0px auto;
 }
 
 header {
@@ -288,6 +289,30 @@ main .first {
   background: rgb(255, 194, 57);
   color: white;
 }
+.four{
+  height: auto;
+  width:100% ;
+  padding: 15px 30px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.four .quotes{
+height: 100%;
+width: 100%;
+background-image: url("../assets/quote-bg.png");
+background-repeat: no-repeat;
+background-size: 40px;
+
+}
+
+.four .quotes p{
+ font-size: 15px;
+ color:rgba(14, 14, 14, 0.7);
+ margin-top: 10px;
+ margin-bottom: 10px;
+  
+  }
 six h1 {
   font-size: 30px;
   font-weight: bold;
@@ -513,6 +538,79 @@ six h1 {
   font-size: 15px;
   color: rgba(14, 14, 14, 0.7);
 }
+.five{
+  height: auto;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.five .opinion-container{
+  height:250px;
+  width: 100%;
+  box-shadow: 0px 0px 3px #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.table{
+  height: auto;
+  display: flex;
+
+  flex-direction: column;
+  height:200px;
+  width: 100%;
+  box-shadow: 0px 0px 3px #ccc;
+
+}
+.head{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(198, 228, 214);
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.data{
+  height: 33%;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.data h5{
+  padding: 0px 20px;
+  height: 100%;
+  width: 80%;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  border-collapse: collapse;
+}
+.data h6{
+  padding: 0px 20px;
+  height: 100%;
+  width: 20%;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  border-collapse: collapse;
+}
+select{
+  height: auto;
+  width: auto;
+  padding: 5px 10px;
+  background:  rgba(9, 161, 92, 0.15);
+  border-radius: 5px;
+  font-weight: bold;
+}
 
 footer{
   height: auto;
@@ -551,3 +649,4 @@ gap: 20px;
     height: 20px;
     width: 20px;
   }
+
