@@ -105,6 +105,67 @@ main .first {
   height: 80%;
   width: 90%;
 }
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second .vision{
+
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.second .vision .sector {
+  height: 100%;
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second .sector div {
+  width: 80%;
+  gap: 10px;
+  padding: 5px;
+}
+.second .sector div img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.second .sector div p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+
+
+.second .one {
+  background: white;
+}
+.second .two {
+ background: white;
+}
+.second .three {
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 .third {
   height: auto;
@@ -436,7 +497,15 @@ six h1 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background: rgb(0, 106, 80);
+  color: white;
+  font-weight: bold;
+}
 
+.input button:hover{
+  background-color: white;
+  border: 1px solid rgb(0, 106, 80);
+  color: rgb(0, 106, 80);
+  transition: ease-in-out .3s;
 }
 
 .eight a{
